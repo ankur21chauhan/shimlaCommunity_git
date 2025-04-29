@@ -1,11 +1,100 @@
-<html>
-	<Head>
-		<Title>Ankur</Title>
-		</head>
-		<body>
-			<p><center><h1>Hello World</h1></center><p>
-			<center>	<footer>All rights reserved &copy 2024</footer></center>
-		</body>
-		<footer>&copy All Rights Reserved 2024</footer>
-</html>
+<!DOCTYPE html>
+  <head>
+    <title>Exercise 5</title>
+  </head>
+  <body>
+
+    <H3>Cart Quantity</H3>
+    <button onclick = "console.log(`Cart Quantity :${(cartQuantity)}`);">
+      Show Quantity
+    </button>
+
+    <button onclick = "cartQuantity +=1;
+                      /*
+                      cartQuantity = cartQuantity +1;
+                      cartQuantity +=1;
+                      cartQuantity ++;
+                      */
+                      console.log(`Cart Quantity :${(cartQuantity)}`)">
+                      Add to Cart
+    </button>
+
+
+    <button onclick = "cartQuantity +=2;
+                      console.log(`Cart Quantity :${(cartQuantity)}`)">
+                      +2
+    </button>
+
+    <button onclick = "cartQuantity +=3;
+                      console.log(`Cart Quantity :${(cartQuantity)}`)">
+                      +3
+    </button>
+
+    <button onclick="cartQuantity+=4
+                      console.log(`cartQuantity ${cartQuantity}`) ">
+                      +4  
+                    </button>
+    
+  <button onclick="cartQuantity+=5
+                    console.log(`cartQuantity ${cartQuantity}`) ">
+                    +5
+                  </button>
+
+    <button onclick="cartQuantity --;
+                    console.log('One item was remonved');
+                    console.log(`Cart Quantity ${cartQuantity}`)">Remove from cart</button>
+          
+  <button onclick="cartQuantity -=2;
+          console.log('Two items were remonved');
+          console.log(`Cart Quantity ${cartQuantity}`)">-2</button>
+
+<button onclick="cartQuantity -=3;
+              console.log('Three items were remonved');
+              console.log(`Cart Quantity ${cartQuantity}`)">-3</button>
+
+    <button onclick = "cartQuantity = 0;
+                      console.log('Cart was reset');
+                      console.log(`Cart Quantity :${(cartQuantity)}`)"">
+                      Reset Cart
+    </button>
+
+    <button onclick="console.clear()">clear console</button>
+
+
+    
+      
+     
+    
+
+
+  </body>
+  <script>
+    var name1 = 'Ankur Chauhan';
+    console.log(`My name is ${name1}`);
+
+    cost = 5 + (2*3) + 9;
+    console.log(`Cost of food $${(cost)}`);
+
+    tax = cost * 0.1;
+    console.log(`Tax (10%) ${tax}`);
+
+    totalcost = tax+cost;
+    console.log(`Total Cost $${(totalcost)}`);
+
+    let cartQuantity = 0;
+
+    
+
+      const variable1 = 10;
+      
+      console.log(variable1);
+
+      var variable3 = 100;
+      var str1 = 'hello';
+      console.log(typeof variable3, typeof str1);
+
+  </script>
+  </html>
+
+
 
